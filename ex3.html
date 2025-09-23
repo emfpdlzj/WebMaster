@@ -5,33 +5,36 @@
     <title>WEB1 - JavaScript</title>
     <meta charset="utf-8">
     <script>
+        var Links = {
+            setColor: function (color) {
+                var alist = document.querySelectorAll('a');
+                var i = 0;
+                while (i < alist.length) {
+                    alist[i].style.color = color;
+                    i = i + 1;
+                }
+            }
+        }
+        var Body = {
+            setColor: function (color) {
+                document.querySelector('body').style.color = color;
+            },
+            setBackgroundColor: function (color) {
+                document.querySelector('body').style.backgroundColor = color;
+            }
+        }
         function nightDayHandler(self) {
             var target = document.querySelector('body');
-            if (this.value ===
-                'night') {
-                target.style.backgroundColor = 'black';
-                target.style.color = 'white';
-                this.value =
-                    'day';
-                var alist = document.querySelectorAll('a');
-                var i = 0;
-                while (i < alist.length) {
-                    alist[i].style.color =
-                        'powderblue';
-                    i = i + 1;
-                }
+            if (self.value === 'night') {
+                Body.setBackgroundColor('black');
+                Body.setColor('white');
+                self.value = 'day';
+                Links.setColor('powderblue');
             } else {
-                target.style.backgroundColor = 'white';
-                target.style.color = 'black';
-                this.value =
-                    'night';
-                var alist = document.querySelectorAll('a');
-                var i = 0;
-                while (i < alist.length) {
-                    alist[i].style.color =
-                        'blue';
-                    i = i + 1;
-                }
+                Body.setBackgroundColor('white');
+                Body.setColor('black');
+                self.value = 'night';
+                Links.setColor('blue');
             }
         }
     </script>
@@ -54,7 +57,7 @@
         weakly typed, prototype-based and multi-paradigm. Alongside HTML and CSS, <span class="js">JavaScript</span> is
         one of
         the three core technologies of the World Wide Web.[7] <span class="js">JavaScript</span> enables interactive web
-        pages   
+        pages
         and thus is an essential part of web applications. The vast majority of websites use it,[8] and
         all major web browsers have a dedicated <span class="js">JavaScript</span> engine to execute it.</p>
     <input type="button" value="night" onclick="
