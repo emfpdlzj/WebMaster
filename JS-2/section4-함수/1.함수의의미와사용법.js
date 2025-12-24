@@ -127,7 +127,7 @@ console.log(add(2, 7));
 
 //3. 화살표 함수
 // 한 줄 안에 값만 반환시
-const mult = (x, y) => x * y;
+const mult=(x,y)=>x*y;
 
 console.log(mult(2, 7));
 

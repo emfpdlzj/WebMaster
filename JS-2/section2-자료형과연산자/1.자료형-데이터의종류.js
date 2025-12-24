@@ -14,7 +14,7 @@ console.log(c, typeof c);
 //자바스크립트에는 정수와 실수의 구분이 없음 - 정수도 실수로 처리
 let integer = 100;
 let real = 12.34;
-let negative = -99;
+let negative = -  99;
 
 console.log(integer, real, negative);
 //3. 문자열 string
