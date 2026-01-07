@@ -1,4 +1,4 @@
-# JsxMaster
+# WebMaster
 Jsx 마스터되기
 
 웹개발공부
@@ -19,9 +19,11 @@ Jsx 마스터되기
 	- https://www.inflearn.com/course/얄코-node-js/dashboard
 - 인프런 - 얄코의 가장 쉬운 리액트(React)
 	- https://www.inflearn.com/course/얄코-node-js/dashboard
-- 리액트 공식 tutorial
-	- https://ko.legacy.reactjs.org/tutorial/tutorial.html
+- 리액트,Next.js로 완성하는 프론트엔드. 영진닷컴
+
 - 인프런 - 제대로 파는 자바스크립트(JavaScript) - by 얄코(Yalco)
 	- https://www.inflearn.com/course/제대로-파는-자바스크립트/dashboard
 - 코드기어 - 웹기술로 데스크톱 앱 만들기 - 일렉트론
 	- https://www.youtube.com/watch?v=Krc4mHkGLqM&list=PLeNJ9AVv90q0t7m-AE6aTSsyUaIWjpU_1&index=1
+
+- Streamlit github
